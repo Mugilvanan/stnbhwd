@@ -1,7 +1,17 @@
 package = "stnbhwd"
 version = "scm-1"
 
-source = {/home/mugilvanan/Downloads/stnbhwd-master/stnbhwd-scm-1.rockspec}
+source = {
+   url = "git://github.com/qassemoquab/stnbhwd.git",
+}
+
+description = {
+   summary = "Spatial Transformer Networks for Torch",
+   detailed = [[
+   ]],
+   homepage = "https://github.com/qassemoquab/stnbhwd",
+   license = "MIT"
+}
 
 dependencies = {
    "torch >= 7.0",
